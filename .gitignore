@@ -1,0 +1,12 @@
+# MATLAB autosave files
+*.asv
+*.m~
+
+# Local stego output directories
+stego_images/
+stego_orig/
+recom_orig/
+stego1.jpg
+stego2.jpg
+stego1_high.jpg
+stego2_high.jpg
