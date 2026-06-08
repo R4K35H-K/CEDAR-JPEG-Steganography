@@ -2,7 +2,7 @@
 
 [![DOI](https://img.shields.io/badge/DOI-10.1007%2Fs11042--025--21136--y-blue)](https://doi.org/10.1007/s11042-025-21136-y) [![Cite](https://img.shields.io/badge/Cite-Paper-blue)](#citation) [![Google Scholar](https://img.shields.io/badge/Google_Scholar-Profile-4285F4?logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=vvfARToAAAAJ) [![MATLAB](https://img.shields.io/badge/MATLAB-R2020a%2B-blue.svg?logo=mathworks&logoColor=white)](https://www.mathworks.com/products/matlab.html)
 
-This repository contains the official, cleaned, and optimized MATLAB implementation of the **CEDAR** steganography scheme for JPEG images, as presented in:
+This repository contains the official MATLAB implementation of the **CEDAR** steganography scheme for JPEG images, as presented in:
 
 > **Downward recompression robust JPEG steganography via efficient content-adaptive embedding**  
 > *(Multimedia Tools and Applications, 2025)*
@@ -49,7 +49,7 @@ Open MATLAB, navigate to `/cedar_matlab/`, and execute:
 ```matlab
 run('CEDAR_Demo.m')
 ```
-The script will run batch processing over the 10 cover images in the dataset and output a results summary including capacity, PSNR, SSIM, and BER metrics. To test the strict paper domain constraint instead, toggle the `RestrictToDomainE` variable in `CEDAR_Demo.m` to `true`.
+The script will run batch processing over the 10 cover images in the dataset and output a results summary including capacity, PSNR, SSIM, and BER (Bit Error Rate) metrics. To test the strict paper domain constraint instead, toggle the `RestrictToDomainE` variable in `CEDAR_Demo.m` to `true`.
 
 ---
 
